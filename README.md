@@ -127,7 +127,7 @@ Caption: `dmesg` shows hard-limit enforcement (SIGKILL) and supervisor metadata 
 Caption: Different scheduler configurations (`nice`) show measurable performance difference.
 
 ### 3.8 Clean teardown
-![Clean teardown](screenshots/os8.png)
+![Clean teardown](screenshots/os8(2).png)
 Caption: Containers are reaped, monitor entries are removed, and shutdown completes without zombie residue.
 
 Conclusion from demo: all required functional goals were demonstrated end-to-end: concurrent supervision, metadata/CLI control path, bounded logging, kernel memory policy, scheduling behavior, and cleanup correctness.
