@@ -115,11 +115,11 @@ Caption: `logs/alpha.log` contains captured stdout/stderr, proving log-path prod
 Caption: CLI command is sent over control IPC and supervisor returns response.
 
 ### 3.5 Soft-limit warning
-![Soft-limit warning](screenshots/os5and6.png)
+![Soft-limit warning](screenshots/os5.png)
 Caption: `dmesg` shows soft-limit warning when RSS crosses configured soft threshold.
 
 ### 3.6 Hard-limit enforcement
-![Hard-limit enforcement](screenshots/os5and6.png)
+![Hard-limit enforcement](screenshots/os6.png)
 Caption: `dmesg` shows hard-limit enforcement (SIGKILL) and supervisor metadata reflects forced termination.
 
 ### 3.7 Scheduling experiment
